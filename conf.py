@@ -31,10 +31,11 @@ extensions = [
     'sphinx.ext.ifconfig',
     'sphinx.ext.todo',
     'odoo',
-    'html_domain',
     'demo_link',
-    'github_link',
     'embedded_video',
+    'github_link',
+    'html_domain',
+    'redirects',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -80,6 +81,8 @@ exclude_patterns = [
     # virtualenv
     'bin', 'include', 'lib',
 ]
+
+redirects_file = 'redirects.txt'
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
